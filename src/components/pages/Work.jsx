@@ -14,7 +14,7 @@ const experiences = [
     technologies: ["HTML", "CSS", "Typescript", "Angular"],
     logo: rovisorLogo, // Path to the company logo
     letterLink:
-      "https://drive.google.com/file/d/1cnHULlfNgrkToXDHBKFYuqQ2YpFH9li1/view?usp=drive_link", // Replace with the actual link
+      ""
   },
   {
     company: "Business Web Solutions",
