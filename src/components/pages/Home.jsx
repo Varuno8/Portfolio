@@ -10,7 +10,7 @@ const Home = () => {
     >
       <div className="text-center bg-gray-900 bg-opacity-60 p-8 rounded-lg shadow-lg">
         <h2 className="text-5xl font-extrabold mb-4 animate-fade-in">
-          Hi, I'm Sameer Shreyas
+          Hi, I'm Varun Tyagi
         </h2>
         <p className="text-2xl mb-6 animate-fade-in">
           Full-Stack Developer | Web Developer | IoT Specialist

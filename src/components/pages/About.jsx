@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImage from '../../assets/MyImage.jpg'; // Adjust path as needed
+import aboutImage from '../../assets/MyImage.jpeg'; // Adjust path as needed
 
 const About = () => {
   return (
@@ -13,15 +13,26 @@ const About = () => {
             className="w-full h-auto rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
           />
         </div>
-        
+
         {/* Text Section */}
         <div className="lg:w-3/5 lg:pl-12 text-center lg:text-left">
           <h3 className="text-4xl font-extrabold mb-6">About Me</h3>
           <p className="max-w-2xl mx-auto text-lg leading-relaxed mb-8">
-            I'm a final-year B.Tech student specializing in IoT in Electronics and Communication Engineering at NSUT, Delhi. I have experience in full-stack web development, data analysis, and automation. My projects showcase my passion for building scalable and innovative solutions.
+            I'm a graduated B.Tech student specializing in IoT in Electronics
+            and Communication Engineering at NSUT, Delhi. I have experience in
+            full-stack web development, data analysis, and automation. My
+            projects showcase my passion for building scalable and innovative
+            solutions.
           </p>
           <p className="max-w-2xl mx-auto text-lg leading-relaxed">
-            I’ve worked as an Analyst Intern at Magicpin, a Web Developer Intern at Business Web Solutions, and have successfully completed projects like EpicEats and MoodSyncTunes.
+            I’ve worked as an Software Developer, a Web Developer Intern at
+            Business Web Solutions, and have successfully completed projects
+            like QuickBites and Completed web developer internship, gaining
+            hands-on experience in building and maintaining web applications. ∗
+            Implemented front-end designs to enhance user experience and
+            debugged code. ∗ Developed skills in HTML, CSS, JavaScript,
+            TypeScript, Angular. ∗ Collaborated with senior developers to
+            integrate APIs and optimize application performance..
           </p>
         </div>
       </div>

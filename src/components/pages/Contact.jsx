@@ -70,7 +70,7 @@ const Contact = () => {
               You can download a copy of my CV to know more about my experience, skills, and achievements.
             </p>
             <a
-              href="Sameer_Shreyas_Resume.pdf"
+              href="Varun_Tyagi_Resume.pdf"
               download
               className="inline-block bg-blue-600 text-white px-6 py-3 font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors"
             >

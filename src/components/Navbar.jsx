@@ -13,53 +13,52 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo and Title */}
         <div className="flex items-center">
-    <h1 className="text-2xl font-bold">Sameer Shreyas</h1>
+          <h1 className="text-2xl font-bold">Varun Tyagi</h1>
 
-    {/* LeetCode Logo */}
-    <a
-      href="https://leetcode.com/u/sameershreyas13/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="ml-4"
-    >
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
-        alt="LeetCode"
-        className="w-8 h-8 hover:opacity-80 transition-opacity duration-300"
-      />
-    </a>
+          {/* LeetCode Logo */}
+          <a
+            href="https://leetcode.com/u/Varun_2/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-4"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+              alt="LeetCode"
+              className="w-8 h-8 hover:opacity-80 transition-opacity duration-300"
+            />
+          </a>
 
-    {/* LinkedIn Logo */}
-    <a
-    href="https://www.linkedin.com/in/sameer-shreyas-99171a209/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="ml-4"
-  >
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
-      alt="LinkedIn"
-      className="hover:opacity-80 transition-opacity duration-300"
-      style={{ width: '8rem', height: '2rem' }} // Adjust these values as needed
-    />
-  </a>
+          {/* LinkedIn Logo */}
+          <a
+            href="https://www.linkedin.com/in/varun-tyagi-32bb281b9/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-4"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
+              alt="LinkedIn"
+              className="hover:opacity-80 transition-opacity duration-300"
+              style={{ width: "8rem", height: "2rem" }} // Adjust these values as needed
+            />
+          </a>
 
-
-    {/* GitHub Logo */}
-    <a
-      href="https://github.com/sameer-shreyas"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="ml-4"
-    >
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-        alt="GitHub"
-        className="w-8 h-8 hover:opacity-80 transition-opacity duration-300"
-      />
-    </a>
-  </div>
-{/* <NavLink to="/" className="text-2xl font-bold">Logo</NavLink> */}
+          {/* GitHub Logo */}
+          <a
+            href="https://github.com/Varuno8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-4"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+              alt="GitHub"
+              className="w-8 h-8 hover:opacity-80 transition-opacity duration-300"
+            />
+          </a>
+        </div>
+        {/* <NavLink to="/" className="text-2xl font-bold">Logo</NavLink> */}
 
         {/* Hamburger Icon for Mobile */}
         <div className="md:hidden">
@@ -84,12 +83,12 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div
           className={`${
-            isOpen ? 'block' : 'hidden'
+            isOpen ? "block" : "hidden"
           } absolute top-0 left-0 w-full h-screen bg-gray-800 md:bg-transparent md:h-auto md:relative md:flex md:items-center md:w-auto md:space-x-4 mt-16 md:mt-0 p-6 md:p-0`}
         >
           {/* Close Icon for Mobile */}
-          <button 
-            onClick={toggleMenu} 
+          <button
+            onClick={toggleMenu}
             className="absolute top-4 right-4 text-white md:hidden"
           >
             <svg
@@ -112,8 +111,8 @@ const Navbar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-400 underline block py-2 text-center'
-                : 'text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center'
+                ? "text-blue-400 underline block py-2 text-center"
+                : "text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center"
             }
             onClick={toggleMenu}
           >
@@ -123,8 +122,8 @@ const Navbar = () => {
             to="/about"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-400 underline block py-2 text-center'
-                : 'text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center'
+                ? "text-blue-400 underline block py-2 text-center"
+                : "text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center"
             }
             onClick={toggleMenu}
           >
@@ -134,8 +133,8 @@ const Navbar = () => {
             to="/skills"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-400 underline block py-2 text-center'
-                : 'text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center'
+                ? "text-blue-400 underline block py-2 text-center"
+                : "text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center"
             }
             onClick={toggleMenu}
           >
@@ -145,8 +144,8 @@ const Navbar = () => {
             to="/projects"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-400 underline block py-2 text-center'
-                : 'text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center'
+                ? "text-blue-400 underline block py-2 text-center"
+                : "text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center"
             }
             onClick={toggleMenu}
           >
@@ -156,8 +155,8 @@ const Navbar = () => {
             to="/experience"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-400 underline block py-2 text-center'
-                : 'text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center'
+                ? "text-blue-400 underline block py-2 text-center"
+                : "text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center"
             }
             onClick={toggleMenu}
           >
@@ -167,8 +166,8 @@ const Navbar = () => {
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? 'text-blue-400 underline block py-2 text-center'
-                : 'text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center'
+                ? "text-blue-400 underline block py-2 text-center"
+                : "text-white hover:text-blue-400 transition-colors duration-300 block py-2 text-center"
             }
             onClick={toggleMenu}
           >

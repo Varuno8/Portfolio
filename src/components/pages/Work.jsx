@@ -1,21 +1,20 @@
 import React from 'react';
-import magicpinLogo from '../../assets/magicpin-logo.svg';
+import rovisorLogo from '../../assets/image.png';
 import businessWebSolutionsLogo from '../../assets/business-web-solutions-logo.jpeg';
 // Import other logos as needed
 
 const experiences = [
   {
-    company: "Magicpin",
-    role: "Analyst Intern",
-    duration: "Jan 2024 - Mar 2024",
+    company: "Rovisor",
+    role: "Software Developer Intern",
+    duration: "Sept 2023 - Feb 2024",
     description: `
-      During my time at Magicpin, I played a key role in automating several reporting processes by developing Python scripts, which resulted in a 30% reduction in manual effort and a significant increase in efficiency. 
-      I also worked on devising ONDC offer strategies that were implemented to boost customer engagement and sales. My collaboration with the Data Science team involved data extraction, analysis, and visualization to support various business decisions.
-      Additionally, I provided crucial support to the Sales Team by delivering data-driven insights and automating their daily tasks.
+       Completed web developer internship, gaining hands-on experience in building and maintaining web applications.Implemented front-end designs to enhance user experience and debugged code.Developed skills in HTML, CSS, JavaScript, TypeScript, Angular. Collaborated with senior developers to integrate APIs and optimize application performance.
     `,
-    technologies: ["Python", "Data Analysis", "Automation", "Data Visualization"],
-    logo: magicpinLogo, // Path to the company logo
-    letterLink: "https://drive.google.com/file/d/1-8nALoIFpp0AAIUuX-_aj8HGQMzvVoGk/view?usp=sharing", // Replace with the actual link
+    technologies: ["HTML", "CSS", "Typescript", "Angular"],
+    logo: rovisorLogo, // Path to the company logo
+    letterLink:
+      "https://drive.google.com/file/d/1cnHULlfNgrkToXDHBKFYuqQ2YpFH9li1/view?usp=drive_link", // Replace with the actual link
   },
   {
     company: "Business Web Solutions",
@@ -25,9 +24,16 @@ const experiences = [
       As a Web Developer Intern at Business Web Solutions, I successfully completed a range of front-end development tasks. I implemented pixel-perfect designs based on client specifications using HTML, CSS, and JavaScript, ensuring a responsive and user-friendly experience across various devices.
       I was also involved in debugging and optimizing code, which improved the performance of the websites by 20%. My work on this project helped me develop strong foundational skills in web development, and I gained hands-on experience in managing project timelines and client expectations.
     `,
-    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "Cross-Browser Compatibility"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive Design",
+      "Cross-Browser Compatibility",
+    ],
     logo: businessWebSolutionsLogo, // Path to the company logo
-    letterLink: "https://drive.google.com/file/d/13WBAiErLEFaSqpQFAUJO56ebyh8yQMnR/view?usp=sharing", // Replace with the actual link
+    letterLink:
+      "https://drive.google.com/file/d/1ZxxvHa_gN3u01YZ-U2hYazHLvcIX4d5h/view?usp=drive_link",
   },
   // Add more experiences as needed
 ];

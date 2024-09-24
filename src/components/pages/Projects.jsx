@@ -1,24 +1,28 @@
 import React from 'react';
-import epicEatsScreenshot from '../../assets/EpicEats.png';
-import moodSyncScreenshot from '../../assets/MoodSyncTunes.jpg';
+import QuickBitesScreenshot from '../../assets/QuickBites.png';
+import jobifyScreenshot from '../../assets/jobify.png';
 
 
 const projects = [
   {
-    title: "EpicEats",
-    description: "A full-stack food delivery platform with user authentication, shopping cart, and order tracking features. Built with MERN stack.",
-    details: "EpicEats offers a seamless food ordering experience with real-time updates, personalized orders, and secure payment integration. The project focuses on scalability, responsive UI, and efficient database management.",
+    title: "QuickBites",
+    description:
+      "A full-stack food delivery platform with user authentication, shopping cart, and order tracking features. Built with MERN stack.",
+    details:
+      "QuickBites offers a seamless food ordering experience with real-time updates, personalized orders, and secure payment integration. The project focuses on scalability, responsive UI, and efficient database management.",
     technologies: ["React", "Node.js", "Express", "MongoDB"],
-    link: "https://github.com/sameer-shreyas/EpicEats",
-    screenshot: epicEatsScreenshot,
+    link: "https://github.com/Varuno8/Quick-Bites",
+    screenshot: QuickBitesScreenshot,
   },
   {
-    title: "MoodSyncTunes",
-    description: "A facial emotion music recommender using a CNN for real-time emotion-based song recommendations. Built with HTML/CSS, JavaScript, and Python.",
-    details: "MoodSyncTunes analyzes real-time facial emotions and suggests songs that match the mood. The project uses a convolutional neural network and integrates with music APIs to provide personalized recommendations.",
-    technologies: ["HTML/CSS", "JavaScript", "Python"],
-    link: "https://github.com/sameer-shreyas/MoodSyncTunes",
-    screenshot: moodSyncScreenshot,
+    title: "Job Seeking Application",
+    description:
+      "The Job Seeking Application is a full-stack web solution that enables users to search and apply for job listings, utilizing modern technologies like ReactJS, NodeJS, and MongoDB for an efficient user experience.",
+    details:
+      "Developed the frontend with ReactJS using the Context API to enhance performance and reduce prop drilling. The backend, built with NodeJS and Express, features token-based authentication for improved server performance and security. The application incorporates security measures such as rate limiting and MongoDB sanitization to prevent attacks. Additionally, it scrapes job data from various websites using Beautiful Soup in Python, providing users with a comprehensive job search experience.",
+    technologies: ["HTML/CSS", "JavaScript", "MongoDB,React,Express.js"],
+    link: "https://jobify-j55w.onrender.com/",
+    screenshot: jobifyScreenshot,
   },
 ];
 

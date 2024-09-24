@@ -1,5 +1,4 @@
 import React from 'react';
-import reactLogo from '../../assets/React.png'; // Adjust path as needed
 import nodeLogo from '../../assets/NodeJs.png'; // Adjust path as needed
 import pythonLogo from '../../assets/Python.png'; // Adjust path as needed
 import javascriptLogo from '../../assets/JS.png'; // Adjust path as needed
@@ -7,14 +6,14 @@ import CppLogo from '../../assets/Cpp.png'; // Adjust path as needed
 import SQLogo from '../../assets/SQL.png'; // Adjust path as needed
 import MongoLogo from '../../assets/Mongo.png'; // Adjust path as needed
 import ExpressLogo from '../../assets/Express.png'; // Adjust path as needed
-
+import angularLogo from '../../assets/Angular.png';
 const skills = [
-  { name: 'React.js', logo: reactLogo, proficiency: 85 },
+  { name: 'Angular', logo: angularLogo, proficiency: 85 },
   { name: 'Node.js', logo: nodeLogo, proficiency: 85 },
-  { name: 'Python', logo: pythonLogo, proficiency: 80 },
+  { name: 'Python', logo: pythonLogo, proficiency: 60 },
   { name: 'JavaScript', logo: javascriptLogo, proficiency: 90 },
   { name: 'C++', logo: CppLogo, proficiency: 95 },
-  { name: 'SQL', logo: SQLogo, proficiency: 95 },
+  { name: 'SQL', logo: SQLogo, proficiency: 75 },
   { name: 'MongoDB', logo: MongoLogo, proficiency: 80 },
   { name: 'Express.js', logo: ExpressLogo, proficiency: 85 }
 ];
